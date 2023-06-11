@@ -1,0 +1,48 @@
+.widget{
+    margin-top: 30px;
+    margin-right: 10px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    flex: 0.33;
+}
+.widget_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.widget_bodyOptions{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.widget_bodyOptions p{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mb{
+    margin-left: 10px;
+    
+}
+.mb p{
+    font-size: 15px;
+    color: gray;
+}
+.mb svg{
+    font-size: 16px;
+    color: gray;
+    margin-right: 10px;
+}
+.widget_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.widget_headerRight svg{
+    margin: 10px 5px;
+}
